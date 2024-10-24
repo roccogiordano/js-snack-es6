@@ -36,3 +36,20 @@ const bikesList = [
 ];
 
 //
+
+
+// Weight Comparison
+
+let minWeight = "";
+
+for (const bike of bikesList) {
+    
+    if (bike.weight < minWeight || minWeight === "") {
+
+        minWeight = bike.weight;
+
+    };
+
+};
+
+//
