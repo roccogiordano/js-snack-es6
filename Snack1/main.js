@@ -62,3 +62,10 @@ for (const bike of bikesList) {
 };
 
 //
+
+
+// Output Display
+
+console.log(`${minWeightName}, con un peso di ${minWeight}Kg, è la bici più leggera!`);
+
+//
