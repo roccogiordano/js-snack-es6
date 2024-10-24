@@ -1,3 +1,12 @@
+// Variables Initialization
+
+let minWeight = "";
+
+let minWeightName = "";
+
+//
+
+
 // bikesList Array Declaration
 
 const bikesList = [
@@ -38,15 +47,15 @@ const bikesList = [
 //
 
 
-// Weight Comparison
-
-let minWeight = "";
+// Weight Comparison Algorithm
 
 for (const bike of bikesList) {
     
     if (bike.weight < minWeight || minWeight === "") {
 
         minWeight = bike.weight;
+
+        minWeightName = bike.name;
 
     };
 
