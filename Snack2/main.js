@@ -85,6 +85,30 @@ for (team of footballTeams) {
 
     generateRandomStats(team);
 
+
+    // Output Display
+
+    if (team.points === 1 && team.fouls === 1) {
+
+        console.log(`La squadra "${team.name}" ha totalizzato ${team.points} punto ed ha commesso ${team.fouls} fallo.`);
+
+    } else if (team.points === 1) {
+
+        console.log(`La squadra "${team.name}" ha totalizzato ${team.points} punto ed ha commesso ${team.fouls} falli.`);
+
+    } else if (team.fouls === 1) {
+
+        console.log(`La squadra "${team.name}" ha totalizzato ${team.points} punti ed ha commesso ${team.fouls} fallo.`);
+
+    } else {
+
+        console.log(`La squadra "${team.name}" ha totalizzato ${team.points} punti ed ha commesso ${team.fouls} falli.`);
+
+    }
+
+    //
+
+
 };
 
 //
