@@ -77,3 +77,14 @@ function generateRandomStats(team) {
 
 };
 //
+
+
+// Random Stats Algorithm
+
+for (team of footballTeams) {
+
+    generateRandomStats(team);
+
+};
+
+//
