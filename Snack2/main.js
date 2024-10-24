@@ -6,23 +6,33 @@ const footballTeams = [
     // team in footballTeams
 
     {
-        name: "Inter"
+        name: "Inter",
+        points: 0,
+        fouls: 0
     },
 
     {
-        name: "Juventus"
+        name: "Juventus",
+        points: 0,
+        fouls: 0
     },
 
     {
-        name: "Napoli"
+        name: "Napoli",
+        points: 0,
+        fouls: 0
     },
 
     {
-        name: "Lazio"
+        name: "Lazio",
+        points: 0,
+        fouls: 0
     },
 
     {
-        name: "Bologna"
+        name: "Bologna",
+        points: 0,
+        fouls: 0
     }
 
     //
